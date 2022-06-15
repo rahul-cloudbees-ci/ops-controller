@@ -1,10 +1,10 @@
 apiVersion: "1"
-version: "2"
+version: "3"
 id: "rahul-cloudbees-ci-ops-controller"
 description: "CloudBees CI configuration bundle for the rahul-cloudbees-ci ops-controller Controller"
 availabilityPattern: "cloudbees-ci-casc-workshop/rahul-cloudbees-ci/ops-controller"
 jcasc:
-  - "jenkins.yaml"
+  - "jcasc/"
 plugins:
   - "plugins.yaml"
 items:
